@@ -1,12 +1,8 @@
-let VERSION = 4
-for (let index = 0; index < 1000; index++) {
-    VERSION = Math.sqrt(VERSION)
-}
-VERSION = input.runningTimeMicros()
-basic.showNumber(VERSION)
-if (VERSION > 250000) {
-    VERSION = 1
+let NEW_VERSION = input.runningTime()
+basic.showNumber(NEW_VERSION)
+if (NEW_VERSION > 200) {
+    NEW_VERSION = 0
 } else {
-    VERSION = 2
+    NEW_VERSION = 1
 }
-basic.showNumber(VERSION)
+basic.showNumber(NEW_VERSION)
