@@ -10,6 +10,3 @@ if (VERSION > 250000) {
     VERSION = 2
 }
 basic.showNumber(VERSION)
-basic.forever(function () {
-	
-})

@@ -1,5 +1,5 @@
 {
-    "name": "micro:bitCheckVersion",
+    "name": "CheckVersion",
     "description": "",
     "dependencies": {
         "core": "*",
